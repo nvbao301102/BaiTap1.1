@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity2">
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_marginTop="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên bạn vừa nhập là: "
+        android:textColor="@color/purple_500"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText">
+
+
+    </TextView>
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text=""
+        android:textColor="#f20"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="10dp"
+        >
+
+    </TextView>
+</LinearLayout>
